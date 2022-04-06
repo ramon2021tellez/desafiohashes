@@ -15,6 +15,7 @@ Diciembre: 21000
 def filter (hash ,reference)
 hash.select do |key , value|
 value > reference
+
 end
 end
 
